@@ -167,6 +167,8 @@ function sideMenu(side) {
   side++;
 }
 
+/* Animated Counter */
+
 var stud = setInterval(enrollstud, 50)
 var course = setInterval(totalcourse, 50)
 var pstud = setInterval(placedstud, 50)
@@ -183,6 +185,7 @@ function enrollstud() {
         clearInterval(stud)
     }
 }
+
 
 function totalcourse() {
     count2++
