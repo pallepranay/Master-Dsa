@@ -202,6 +202,7 @@ function placedstud() {
     }
 }
 
+
 function totalintern() {
     count4++
     document.querySelector("#counter4").innerHTML = count4
