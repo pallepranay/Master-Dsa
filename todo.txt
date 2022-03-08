@@ -17,7 +17,7 @@ what to do:
 2. Dsa Visualizer    (Ayush pranay sairitvik)
 3. student profile page (rupendra sairitvik)
 4. need to improve login page (need to inculde subscription/premium) (abhishek pranay)
-5. payment gateway interface. (pranay sairitvik)
-6. Backend part should be attached with frontend (rupendra abhishek pranay sairitvik)
+5. payment gateway interface. (ayush rupendra abhishek)
+6. Backend part should be attached with frontend (rupendra pranay abhishek)
 
 
