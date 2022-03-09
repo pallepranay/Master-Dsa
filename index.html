@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<link rel="shortcut icon" type="png" href="images/icon/headlogo.png">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
 	<title>Master Dsa</title>
 	<meta name="desciption" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
 	<!-- Fonts -->
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@900&family=Poppins&family=Sacramento&family=Ubuntu&display=swap');
 	</style>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="script.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
@@ -32,7 +36,9 @@
 </head>
 
 <body>
-	<!-- Navigation Bar -->
+
+	<!-- Navigatio Bar -->
+
 	<header id="header">
 		<nav>
 			<div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
@@ -40,25 +46,33 @@
 				<li><a class="active" href="">Home</a></li>
 				<li><a href="#portfolio_section">Portfolio</a></li>
 				<li><a href="#team_section">Team</a></li>
-				<li><a href="#services_section">Services</a></li>
+				<li><a href="#services_section">Courses</a></li>
 				<li><a href="#contactus_section">Contact</a></li>
 			</ul>
+
 			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
 			<a class="get-started" href="login.html">Get Started</a>
+
 			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
 		</nav>
+
+		<!-- top-left part -->
 		<div class="head-container">
 			<div class="quote">
 				<p>Skills for your present (and your future). Get started with us</p>
 				<h5>Programming isn't about what you know; it's about what you can figure out.</h5>
+
 				<div class="play">
 					<img src="images/icon/play.png" alt="play"><span><a href="https://www.youtube.com" target="_blank">Watch Now</a></span>
 				</div>
 			</div>
+
+			<!-- website def image top right part -->
 			<div class="svg-image">
 				<img src="images/extra/svg1.jpg" alt="svg">
 			</div>
 		</div>
+
 		<div class="side-menu" id="side-menu">
 			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
 			<div class="user">
@@ -69,7 +83,7 @@
 				<li><a href="#about_section">About</a></li>
 				<li><a href="#portfolio_section">Portfolio</a></li>
 				<li><a href="#team_section">Team</a></li>
-				<li><a href="#services_section">Services</a></li>
+				<li><a href="#services_section">Courses</a></li>
 				<li><a href="#contactus_section">Contact</a></li>
 				<li><a href="#feedBACK">Feedback</a></li>
 			</ul>
@@ -79,9 +93,10 @@
 	<!-- Some Popular Courses -->
 	<div class="middle-container">
 		<div class="course1">
+			<!-- multiple Text typing -->
 			<div class="wrapper">
 				<div class="static-txt">Courses</div>
-				<ul class = "dynamic-txts">
+				<ul class="dynamic-txts">
 					<li><span>Data Structures</span></li>
 					<li><span>C C++ Java Python</span></li>
 					<li><span>Android Development</span></li>
@@ -90,6 +105,7 @@
 			</div>
 		</div>
 		<br><br>
+		<!-- Courses -->
 		<div class="course">
 			<center>
 				<div class="cbox">
@@ -110,7 +126,7 @@
 
 
 
-	<!-- ABOUT -->
+	<!-- Reason behind the Website Idea -->
 	<div class="diffSection" id="about_section">
 		<center>
 			<p style="font-size: 50px; padding: 100px"></p>
@@ -147,25 +163,25 @@
 		<div class="smbox">
 			<span>
 				<center>
-					<div id = "counter1" class="counter">407</div>
+					<div id="counter1" class="counter">407</div>
 					<div class="det">Enrolled Students</div>
 				</center>
 			</span>
 			<span>
 				<center>
-					<div id = "counter2" class="counter">348</div>
+					<div id="counter2" class="counter">348</div>
 					<div class="det">Total Courses</div>
 				</center>
 			</span>
 			<span>
 				<center>
-					<div id = "counter3" class="counter">356</div>
+					<div id="counter3" class="counter">356</div>
 					<div class="det">Placed Students</div>
 				</center>
 			</span>
 			<span>
 				<center>
-					<div id = "counter4" class="counter">317</div>
+					<div id="counter4" class="counter">317</div>
 					<div class="det">Total Internships</div>
 				</center>
 			</span>
@@ -173,7 +189,7 @@
 	</div>
 
 
-	<!-- TEAM -->
+	<!-- TEAM of Master Dsa -->
 	<div class="diffSection" id="team_section">
 		<center>
 			<p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">Founder's of MasterDsa</p>
@@ -216,7 +232,7 @@
 	</div>
 
 
-	<!-- SERVICES -->
+	<!-- Courses provided in Master Dsa -->
 	<div class="service-swipe">
 		<div class="diffSection" id="services_section">
 			<center>
@@ -365,7 +381,7 @@
 	</div>
 
 
-	<!-- FEEDBACK -->
+	<!-- FEEDBACK form -->
 	<div class="title2" id="feedBACK">
 		<span>Give Feedback</span>
 		<div class="shortdesc2">
@@ -389,11 +405,10 @@
 
 	<!-- Sliding Information -->
 	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20">
-		<div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The
-			only person who is educated is the one who has MasterDsa how to learn …and change.”</div>
+		<div class="marqu">“If you have choosen the right data structures and organized things well, the algorithms will almost be self-evident. Data Structures, not algorithms are central to programming”</div>
 	</marquee>
 
-	<!-- FOOTER -->
+	<!-- FOOTER part of website with contact details -->
 	<footer>
 		<div class="footer-container">
 			<div class="left-col">
@@ -411,6 +426,9 @@
 				<p><img src="images/icon/location.png"> Indian Institute of Information Technology<br>Sricity, Andhra Pradesh</p><br>
 				<p><img src="images/icon/phone.png"> +91 9959458697<br><img src="images/icon/mail.png">&nbsp; masterdsa.help@gmail.com</p>
 			</div>
+
+			<!-- News letter -->
+
 			<div class="right-col">
 				<h1 style="color: #fff">Our Newsletter</h1>
 				<div class="border"></div><br>
