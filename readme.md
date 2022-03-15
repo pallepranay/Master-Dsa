@@ -1,25 +1,22 @@
-## LearnEd (E-learning Website)
-An educational website for students and programmers 😊😊😊  
+Total Pages : 5 
+1 -> interface - payment gateway pending
+2 -> login page
+3 -> Gate exam
+4 -> computer courses
+5 -> quizes
+6 -> hackathon
+7 -> student profile page (consists of performance and ranking report)
+8 -> Dsa Visualizer
 
-![](pcView.png)
 
-Try this out::  
-https://roshan9419.github.io/LearnEd_E-learning_Website/
 
-Our Educational Website would provide all the education related stuffs:  
-Notes, Sample Papers, Online Video Lectures and courses to crack competitive  
-exams like JEE-Main, JEE-Advanced, GATE, etc. Students can clear their doubts  
-by sending their questions to our website. We have added Quizzes for Students  
-who are willing to solve problems on different topics. We have also added  
-Interview questions for students who are preparing for placements.  
-  
-✔ We have made this website as responsive website so, students or users can  
-   easily access our website from  any device.  
-✔ Quiz Section is an interesting feature for students which provide them with  
-   lots of questions. They can view their scores easily and solutions of every questions.  
-✔ Projects – in this I have added a project section where students from schools and  
-   colleges can get projects for final year and for Class 12th Board Projects.  
-   
-It is completely responsive website, to provide smooth experience...😎  
 
-If you like my project, give it a star  😁😁😁
+what to do:
+
+1. Hackathon webpage
+2. Dsa Visualizer
+3. student profile page
+4. need to improve login page (need to inculde subscription/premium)
+5. payment gateway interface.
+6. Backend part should be attached with frontend
+
