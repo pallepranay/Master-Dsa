@@ -469,7 +469,7 @@ a, button {
   color: #2E3D49;
 }
 
-/*ABOUT*/
+/* content ABOUT */
 .about-content {
   width: 100%;
   position: relative;
@@ -550,6 +550,7 @@ a, button {
   font-family: cursive;
   text-decoration: none;
 }
+
 .cbox .det a:hover {
   background: linear-gradient(to right, #FA4B37, #DF2771);
   color: white;
