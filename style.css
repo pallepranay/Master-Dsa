@@ -34,15 +34,18 @@ nav {
   display: flex;
   width: 100%;
   z-index: 1000;
-  background: #000;
+  background: #fff;
   justify-content: space-around;
   transition: 1.5s;
   align-items: center;
+  align-content: center;
 }
 
 nav ul {
   display: flex;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
@@ -52,22 +55,22 @@ nav ul li {
 
 nav ul li a {
   padding: 2px 10px;
-  color: #FFF;
+  color: #000;
   cursor: pointer;
   transition: .5s;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: #fff;
+  color: #000;
   border-radius: 5px;
-  background: #DF2771;
+  background: #FC6D6D;
 }
 
 .active {
-  color: #fff;
+  color: #000;
   border-radius: 5px;
-  background: #DF2771;
+  background: #FC6D6D;
 }
 
 .srch {
@@ -96,11 +99,11 @@ nav ul li a:hover {
 .get-started {
   margin-left: 50px;
   padding: 5px 20px;
-  border: 2px solid #DF2771;
+  border: 2px solid #FC6D6D;
   border-radius: 20px;
   text-decoration: none;
   transition: .5s;
-  background-color: #DF2771;
+  background-color: #FC6D6D;
   color: #fff;
 }
 
@@ -110,7 +113,7 @@ nav ul li a:hover {
 }
 
 .logo img {
-  width: 230px;
+  width: 125px;
   cursor: pointer;
   transition: all 1s;
 }
@@ -125,6 +128,34 @@ a, button {
   text-decoration: none;
   text-align: center;
 }
+
+/* Drop Down box */
+
+
+/**/
+.cat-menu {
+    display:flex;
+    height:60px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid gray;
+    border-top: 0.5px solid gray;
+}
+.cat-menu div{
+    padding: 2px 25px;
+}
+.cat-menu div a{
+   text-decoration: none;
+   color:black;
+   font-weight: 400;
+   transition:0.2s;
+}
+
+.cat-menu div a:hover{
+    font-size:20px;
+    /* color:rgb(2, 141, 255); */
+ }
+ /**/
 
 .head-container {
   margin-top: 245px;
